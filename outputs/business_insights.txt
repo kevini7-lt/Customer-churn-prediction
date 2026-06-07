@@ -1,0 +1,38 @@
+Model Summary
+-------------
+Accuracy: 0.7686
+Precision: 0.5480
+Recall: 0.7326
+F1 Score: 0.6270
+ROC-AUC: 0.8429, indicating strong ability to distinguish churn vs non-churn customers
+Overall Churn Rate: 26.54%
+
+Most Influential Factors Affecting Churn Risk
+---------------------------------------------
+- tenure: Shorter customer tenure is associated with higher churn exposure, making early lifecycle engagement important for retention.
+- TotalCharges: Total accumulated charges reflect the customer lifecycle and spending history, helping identify how long-term value relates to churn behavior.
+- MonthlyCharges: Higher monthly charges can indicate greater value sensitivity, making pricing perception and service value important retention factors.
+- Contract_Two year: Longer contract commitments are associated with lower churn risk, suggesting that contract structure can support customer stability.
+- InternetService_Fiber optic: Service type is a meaningful churn signal, indicating that product experience and service expectations may influence retention.
+
+Customer Segments At Risk
+-------------------------
+- High-risk segment: Customers with tenure of 12 months or less have a churn rate of 47.44%. This segment matters because early churn can reduce customer lifetime value before the business has time to recover acquisition and onboarding effort.
+- High-risk segment: Month-to-month customers have a churn rate of 42.71%. This segment matters because flexible contracts create higher revenue risk when customers can leave without longer-term commitment.
+- Medium-risk segment: Customers in the highest monthly charge quartile have a churn rate of 32.75%. This segment matters because higher-paying customers may represent greater revenue exposure if perceived value does not match cost.
+- Low-risk segment: Customers with tenure above 48 months have a churn rate of 9.51%. This segment matters because long-tenure customers appear more stable and can provide a benchmark for retention strategy.
+
+Business Recommendations
+------------------------
+High Priority
+- Prioritize retention outreach for customers with the highest churn probability. This helps teams focus retention effort where revenue risk is most concentrated.
+- Launch early-tenure onboarding support during the first 12 months. This matters because short-tenure customers show elevated churn risk and may need faster value realization.
+- Promote annual contract upgrades for month-to-month customers. This can reduce churn exposure by encouraging stronger customer commitment.
+
+Medium Priority
+- Review pricing and value perception for high monthly charge customers. This matters because higher monthly charges may increase churn exposure when customers do not clearly see service value.
+- Use targeted offers for customers with limited service bundles. This can improve retention by aligning offers with customer needs and service adoption patterns.
+
+Supporting Priority
+- Monitor churn risk before renewal and billing-cycle milestones. This helps identify potential churn risk before customers make switching decisions.
+- Refresh retention strategy as feature importance patterns change. This keeps business actions aligned with the most current churn drivers identified by the model.

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes customer churn risk using the IBM Telco Customer Churn dataset, combining Python machine learning with SQL-based business analysis. The objective is to identify customers at higher risk of churn, understand the business drivers behind that risk, and produce actionable outputs for retention prioritization.
+This project analyzes customer churn risk using the IBM Telco Customer Churn dataset from Kaggle (https://www.kaggle.com/datasets/blastchar/telco-customer-churn), combining Python machine learning with SQL-based business analysis. The objective is to identify customers at higher risk of churn, understand the business drivers behind that risk, and produce actionable outputs for retention prioritization.
 
 The project is organized as a reproducible Python + SQL portfolio project with source code, notebook analysis, model outputs, visualizations, a standalone SQL analysis layer, and ranked high-risk customers.
 
